@@ -12,14 +12,20 @@
 	<body>
 		<div class="container-fluid">
 		
-			<header class="container row">			<!-- header/top --->
-				<a href="#home"><img src="" alt="MMP Logo" class="col-xs-8 col-sm-8 col-md-8 col-lg-8"/></a>			<!-- add MMP logo -->
-				<ul class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-					<li class="col-xs-1 col-sm-1 col-md-1 col-lg-1"><a href="#home">Home</a></li>			<!-- 'go to home' section -->
-					<li class="col-xs-1 col-sm-1 col-md-1 col-lg-1"><a href="#proj">Projects</a></li>			<!-- 'go to projects' section -->
-					<li class="col-xs-1 col-sm-1 col-md-1 col-lg-1"><a href="#cont">Contact</a></li>			<!-- 'go to contact' section -->
-					<li class="col-xs-1 col-sm-1 col-md-1 col-lg-1"><a href="#about">About</a></li>			<!-- 'go to about' section -->
-				</ul>
+			<header class="navbar navbar-default navbar-fixed-top">			<!-- header/top --->
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="#"><img src="" alt="MMLogo"/></a>
+					</div>
+					<div class="collapse navbar-collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#home">HOME</a></li>
+							<li><a href="#proj">PROJECTS</a></li>
+							<li><a href="#about">ABOUT</a></li>
+							<li><a href="#cont">CONTACT</a></li>
+						</ul>
+					</div>
+				</div>
 			</header>
 		
 			<section class="jumbotron" id="home">			<!-- home/intro -->
@@ -98,15 +104,21 @@
 					</figure>
 			</section>
 		
-			<footer class="container row">
-				<a href="#home"><i class="fa fa-caret-square-o-up col-xs-9 col-sm-9 col-md-9 col-lg-9 fa-3x" aria-hidden="true"></i></a>	 			<!-- add 'back to top' icon-->
-				<ul class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-					<li class ="col-xs-1 col-sm-1 col-md-1 col-lg-1"><a href="https://www.facebook.com/anedom.modena"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a></li> 			<!-- add facebook logo -->
-					<li class ="col-xs-1 col-sm-1 col-md-1 col-lg-1"><a href="https://twitter.com/Anedom"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a></li>			<!-- add twitter logo-->
-					<li class ="col-xs-1 col-sm-1 col-md-1 col-lg-1"><a href="https://github.com/Anedom"><i class="fa fa-github-square fa-3x" aria-hidden="true"></i></a></li>			<!-- add git logo -->
-				</ul>
+			<footer class="navbar navbar-default navbar-static-bottom">			<!-- header/top --->
+				<div class="container-fluid">
+					<div class="collapse navbar-collapse">
+						<ul class="nav navbar-nav navbar-left">
+							<li><a href="#home"><i class="fa fa-caret-square-o-up fa-3x" aria-hidden="true"></i></a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="https://www.facebook.com/anedom.modena"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a></li>
+							<li><a href="https://twitter.com/Anedom"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a></li>
+							<li><a href="https://github.com/Anedom"><i class="fa fa-github-square fa-3x" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+				</div>
 			</footer>
-		
+			
 		</div>
 	</body>
 </html>
