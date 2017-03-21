@@ -1,9 +1,5 @@
 <style>
 	
-	body {
-		font-family: 'Reem Kufi', sans-serif;
-	}
-	
 	header ul {
 		list-style: none;
 	}
@@ -23,4 +19,5 @@
 	footer ul li{
 		margin: 10px;
 	}
+	
 </style>
