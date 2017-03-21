@@ -4,20 +4,16 @@
 		font-family: 'Reem Kufi', sans-serif;
 	}
 	
-	#home {
-		padding-top: 50px;
-	}
-	
 	header ul {
 		list-style: none;
+	}
+
+	header ul li {
+		margin: 20px;
 	}
 	
 	.ms {
 		padding: 5px;
-	}
-	
-	header ul li {
-		margin: 20px;
 	}
 
 	footer ul{
