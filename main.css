@@ -1,11 +1,19 @@
 <style>
 	
 	body {
-		font-family: 'Reem Kufi', sans-serif !important;
+		font-family: 'Reem Kufi', sans-serif;
+	}
+	
+	#home {
+		padding-top: 50px;
 	}
 	
 	header ul {
 		list-style: none;
+	}
+	
+	.ms {
+		padding: 5px;
 	}
 	
 	header ul li {
