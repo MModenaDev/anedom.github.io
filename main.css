@@ -1,5 +1,22 @@
 <style>
+	
 	body {
 		font-family: 'Reem Kufi', sans-serif !important;
+	}
+	
+	header ul {
+		list-style: none;
+	}
+	
+	header ul li {
+		margin: 20px;
+	}
+
+	footer ul{
+		list-style: none;
+	}
+	
+	footer ul li{
+		margin: 10px;
 	}
 </style>
