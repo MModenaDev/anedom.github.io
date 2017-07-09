@@ -1,33 +1,5 @@
 <style>
 	
-	header ul {
-		list-style: none;
-	}
-
-	header ul li {
-		margin: 20px;
-	}
 	
-	.jumbotron {
-		margin-top: 100px;
-		padding-top: 300px;
-		padding-bottom: 300px;
-	}
-	
-	.anchor{
-		position: relative;
-		top: -102px;
-	}
-	.ms {
-		padding: 5px;
-	}
-
-	footer ul{
-		list-style: none;
-	}
-	
-	footer ul li{
-		margin: 10px;
-	}
 	
 </style>
